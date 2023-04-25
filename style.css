@@ -1,0 +1,36 @@
+.axes{
+    color: aquamarine;
+    
+}
+
+.and{
+    color:white;
+    text-align: center;
+}
+.was{
+    color: white;
+    text-align: center;
+}
+
+.one h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color:white;
+  }
+  body{
+    background: green;
+background: radial-gradient(circle, green 0%,yellow 100%);
+  }
